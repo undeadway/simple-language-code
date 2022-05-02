@@ -41,7 +41,7 @@ module.exports = {
 	},
 	//////////
 	getNativeName: (code) => {
-		getName(code, "native");
+		return getName(code, "native");
 	},
 	getAllNaticeNames: () => {
 		return getNames ("native");
@@ -51,7 +51,7 @@ module.exports = {
 	},
 	//////////
 	getEnglishName: (code) => {
-		getName(code, "english");
+		return getName(code, "english");
 	},
 	getAllEnglishNames: () => {
 		return getNames ("english");
@@ -61,7 +61,7 @@ module.exports = {
 	},
 	//////////
 	getChineseName: (code) => {
-		getName(code, "chinese");
+		return getName(code, "chinese");
 	},
 	getAllChineseNames: () => {
 		return getNames ("chinese");
