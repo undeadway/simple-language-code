@@ -7,7 +7,7 @@ function isValidCode(code) {
 
 function getName(code, type) {
 	if (isValidCode(code)) {
-		return MAP[data][type];
+		return MAP[code][type];
 	} else {
 		return null;
 	}
