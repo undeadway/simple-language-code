@@ -50,7 +50,7 @@ getNativeName("zh-Hans") // 中文（简体）
 
 ```
 getAllNaticeNames()
-// [{ "name":"en", "value": "English" }, {"name“:"en", "value": "Chinese" } ... ]
+// [{ "name":"en", "value": "English" }, {"name“:"zh", "value": "Chinese" } ... ]
 ```
 
 ## 3. 参考资料（不分先后）

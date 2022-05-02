@@ -2097,3 +2097,5 @@ const MAP = {
 		"native":"བོད་ཡིག"
 	}
 }
+
+module.exports = MAP;
