@@ -1,7 +1,7 @@
 const MAP = require("./data");
 
 function isValidCode(code) {
-	let result = Map.hasOwnProperty(code);
+	let result = MAP.hasOwnProperty(code);
 	return result;
 }
 
